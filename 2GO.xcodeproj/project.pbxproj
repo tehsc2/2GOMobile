@@ -12,6 +12,7 @@
 		2827DE75232E5CDC00912312 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2827DE73232E5CDC00912312 /* Main.storyboard */; };
 		2827DE77232E5CE600912312 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2827DE76232E5CE600912312 /* Assets.xcassets */; };
 		2827DE7A232E5CE700912312 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2827DE78232E5CE700912312 /* LaunchScreen.storyboard */; };
+		B9382F57232F12DF00F81D44 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9382F56232F12DF00F81D44 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		2827DE76232E5CE600912312 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2827DE79232E5CE700912312 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2827DE7B232E5CE700912312 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9382F56232F12DF00F81D44 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				2827DE6F232E5CDC00912312 /* AppDelegate.swift */,
 				2827DE71232E5CDC00912312 /* ViewController.swift */,
+				B9382F56232F12DF00F81D44 /* LoginViewController.swift */,
 				2827DE73232E5CDC00912312 /* Main.storyboard */,
 				2827DE76232E5CE600912312 /* Assets.xcassets */,
 				2827DE78232E5CE700912312 /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9382F57232F12DF00F81D44 /* LoginViewController.swift in Sources */,
 				2827DE72232E5CDC00912312 /* ViewController.swift in Sources */,
 				2827DE70232E5CDC00912312 /* AppDelegate.swift in Sources */,
 			);

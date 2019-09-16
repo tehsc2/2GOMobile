@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  2GO
+//  2gologin
 //
-//  Created by Esther Souza on 15/09/19.
-//  Copyright © 2019 2GO. All rights reserved.
+//  Created by Tatiana Rico on 15/09/19.
+//  Copyright © 2019 Tatiana Rico. All rights reserved.
 //
 
 import UIKit
