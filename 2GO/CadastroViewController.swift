@@ -22,9 +22,7 @@ class CadastroViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-
-}
+    }
     
     
     @IBAction func cadastrarButton(_ sender: UIButton) {
