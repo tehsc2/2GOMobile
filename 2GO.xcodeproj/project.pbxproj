@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2827DE70232E5CDC00912312 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2827DE6F232E5CDC00912312 /* AppDelegate.swift */; };
-		2827DE72232E5CDC00912312 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2827DE71232E5CDC00912312 /* ViewController.swift */; };
+		2827DE72232E5CDC00912312 /* TelaDoEventoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2827DE71232E5CDC00912312 /* TelaDoEventoViewController.swift */; };
 		2827DE75232E5CDC00912312 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2827DE73232E5CDC00912312 /* Main.storyboard */; };
 		2827DE77232E5CE600912312 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2827DE76232E5CE600912312 /* Assets.xcassets */; };
 		2827DE7A232E5CE700912312 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2827DE78232E5CE700912312 /* LaunchScreen.storyboard */; };
@@ -19,7 +19,7 @@
 /* Begin PBXFileReference section */
 		2827DE6C232E5CDC00912312 /* 2GO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2GO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2827DE6F232E5CDC00912312 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2827DE71232E5CDC00912312 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2827DE71232E5CDC00912312 /* TelaDoEventoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaDoEventoViewController.swift; sourceTree = "<group>"; };
 		2827DE74232E5CDC00912312 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2827DE76232E5CE600912312 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2827DE79232E5CE700912312 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -39,6 +39,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C101DD4233D7EEC00419B80 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0C101DD5233D7EF600419B80 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0C101DD6233D7F0900419B80 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		2827DE63232E5CDC00912312 = {
 			isa = PBXGroup;
 			children = (
@@ -58,11 +79,14 @@
 		2827DE6E232E5CDC00912312 /* 2GO */ = {
 			isa = PBXGroup;
 			children = (
-				2827DE6F232E5CDC00912312 /* AppDelegate.swift */,
-				2827DE71232E5CDC00912312 /* ViewController.swift */,
+				0C101DD6233D7F0900419B80 /* View */,
+				2827DE71232E5CDC00912312 /* TelaDoEventoViewController.swift */,
 				B9382F56232F12DF00F81D44 /* LoginViewController.swift */,
-				2827DE73232E5CDC00912312 /* Main.storyboard */,
 				BE40A4E72330298B00CCB773 /* CadastroViewController.swift */,
+				0C101DD5233D7EF600419B80 /* Controller */,
+				0C101DD4233D7EEC00419B80 /* Model */,
+				2827DE6F232E5CDC00912312 /* AppDelegate.swift */,
+				2827DE73232E5CDC00912312 /* Main.storyboard */,
 				2827DE76232E5CE600912312 /* Assets.xcassets */,
 				2827DE78232E5CE700912312 /* LaunchScreen.storyboard */,
 				2827DE7B232E5CE700912312 /* Info.plist */,
@@ -142,7 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9382F57232F12DF00F81D44 /* LoginViewController.swift in Sources */,
-				2827DE72232E5CDC00912312 /* ViewController.swift in Sources */,
+				2827DE72232E5CDC00912312 /* TelaDoEventoViewController.swift in Sources */,
 				2827DE70232E5CDC00912312 /* AppDelegate.swift in Sources */,
 				BE40A4E82330298B00CCB773 /* CadastroViewController.swift in Sources */,
 			);
